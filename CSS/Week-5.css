@@ -1,0 +1,54 @@
+/*Nicky Devilee
+Bol4 applicatieontwikkelaar
+Week 5 - HTML, CSS
+opdracht: Week 5 - Gehaktbrood*/
+.menu {
+    background-color: #000000;
+    overflow: hidden;
+}
+
+.menu a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.menu a:hover {
+    background-color: lightgrey;
+    color: black;
+}
+
+.menu a.actief {
+    background-color: #FF0000;
+    color: white;
+}
+
+#pagina{
+	font-family: 'Roboto', sans-serif;
+	margin: 0 auto;
+}
+
+body{
+	margin: 0 25%;
+}
+
+#ingrediënten, li{
+	margin-bottom: 10px;
+}
+
+h1{
+	font-size: 36px;
+	line-height: 36px;
+}
+
+p{
+	font-size: 24px;
+	line-height: 32px;
+}
+
+img{
+	width: 60%;
+}
