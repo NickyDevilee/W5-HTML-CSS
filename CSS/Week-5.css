@@ -2,6 +2,8 @@
 Bol4 applicatieontwikkelaar
 Week 5 - HTML, CSS
 opdracht: Week 5 - Gehaktbrood*/
+
+/*instellingen voor het navigatie menu.*/
 .menu {
     background-color: #000000;
     overflow: hidden;
@@ -16,17 +18,28 @@ opdracht: Week 5 - Gehaktbrood*/
     font-size: 17px;
 }
 
+/*instellingen wanneer de muis over het menu hovert*/
 .menu a:hover {
     background-color: lightgrey;
     color: black;
 }
 
+/*instellingen voor de actieve pagina*/
 .menu a.actief {
     background-color: #FF0000;
     color: white;
 }
 
-#pagina{
+.startpagina{
+    font-family: 'Roboto', sans-serif;
+    margin: 0 auto;
+}
+
+.startpagina-foto{
+    width: 200px;
+}
+
+.pagina{
 	font-family: 'Roboto', sans-serif;
 	margin: 0 auto;
 }
@@ -35,20 +48,50 @@ body{
 	margin: 0 25%;
 }
 
-#ingrediënten, li{
+.intro{
+    font-size: 24px;
+    line-height: 32px;
+}
+
+h2, h3{
+    font-size: 32px;
+    line-height: 32px;
+}
+
+.ingrediënten{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.ingrediënten, li{
 	margin-bottom: 10px;
 }
 
 h1{
 	font-size: 36px;
 	line-height: 36px;
+    margin-top: 40px;
 }
 
-p{
-	font-size: 24px;
-	line-height: 32px;
+ol li{
+    margin-bottom: 20px;
+}
+
+li{
+    font-size: 20px;
+    line-height: 26px;
 }
 
 img{
 	width: 60%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.tip{
+    background-color: #def6ed;
+    border: 1px solid #def6ed;
+    border-radius: 4px;
+    padding: 25px;
+    margin-bottom: 50px;
 }
